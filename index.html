@@ -1,0 +1,88 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SignUp From</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <form action="">
+
+        <h1>Sign Up</h1>
+
+        <fieldset>
+            
+            <legend><span class="section">1</span>Your basic information</legend>
+
+            <label for="text">Name:</label>
+            <input type="text" name="name" id="">
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="">
+            
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="">
+
+            <label>Age:</label>
+            <input type="radio" name="age" id="under_18">
+            <label class="light" for="under_18">Under 18:</label></br>
+
+            <input type="radio" name="age" id="over_18">
+            <label class="light" for="over_18">Over 18:</label>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend><span class="section">2</span>Your Profile</legend>
+            <label class="" for="bio">Bio:</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            
+            <label for="job">Job role:</label>
+            
+            <select name="job" id="">
+                <optgroup label="web">
+                        <option value="frontend_developer">Front-End Developer</option>
+                        <option value="backend_developer">Back-End Developer</option>
+                        <option value="php_developer">PHP Developer</option>
+                        <option value="python_developer">Python Developer</option>
+                        <option value="wordpress_developer">Wordpress Developer</option>
+                </optgroup>
+        
+                <optgroup label="Design">
+                        <option value="ui_designer">UI Designer</option>
+                        <option value="ux_designer">UX Designer</option>
+                        <option value="Product_designer">Product Designer</option>
+                </optgroup>
+        
+                <optgroup label="Mobile">
+                        <option value="android_developer">Android Developer</option>
+                        <option value="ios_developer">iOS Developer</option>
+                </optgroup>
+            </select>
+            
+            <label for="">
+                
+                <label>Interest:</label>
+                <input type="checkbox" value="interest_development" name="user_interest">
+                <label class="light" for="development">Development</label></br>
+                
+                <input type="checkbox" value="interest_design" name="user_interest">
+                <label class="light" for="design">Design</label></br>
+                
+                <input type="checkbox" value="interest_mobile" name="user_interest">
+                <label class="light" for="mobile">Mobile</label>
+            </label>
+            
+            <button type="submit">Sign Up</button>
+
+        </fieldset>
+
+    </form>
+</body>
+</html>
